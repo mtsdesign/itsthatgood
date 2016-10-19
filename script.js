@@ -1,10 +1,10 @@
-$('document').ready(){
+$('document').ready(function () {
 
 	var $msgArea = $('msgArea').text,
 		$inputBox = $('inputBox').val
 
-	$msgArea.on('keyup', function () {
+	$msgArea.keyup(function () {
 		$msgArea = $inputBox;
 	})
 
-}//doc ready
+})//doc ready
