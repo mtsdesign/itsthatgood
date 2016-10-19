@@ -1,7 +1,7 @@
 $('document').ready(function () {
 
-	var $msgArea = $('msgArea').text,
-		$inputBox = $('inputBox')
+	var $msgArea = $('#msgArea').text,
+		$inputBox = $('#inputBox')
 
 	$inputBox.keyup(function () {
 		$msgArea = $inputBox;
