@@ -5,6 +5,7 @@ $('document').ready(function () {
 
 	$inputBox.keyup(function () {
 		$msgArea = $inputBox.val;
+		console.log($inputBox.val)
 	})
 
 })//doc ready
