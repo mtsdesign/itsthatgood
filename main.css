@@ -1,1 +1,62 @@
-main.css
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+
+
+
+h1 {
+	font-family: 'Luckiest Guy', cursive;
+	color: #042d7d;
+	margin: auto;
+    width: 90%;
+    text-align: center;
+    font-size: 8em;
+
+}
+
+#imagecContainer{
+	margin: auto;
+	text-align: center;
+}
+img{
+	margin: auto;
+}
+
+#textDiv {
+	position: absolute;
+    width: 639px;
+    top: 455px;
+    left: 380px;
+    margin: auto;
+	
+}
+
+h6 {
+	font-family: 'Luckiest Guy', cursive;
+	color: #042d7d;
+	margin: auto;
+    width: 90%;
+    font-size: 3.5em;
+    text-align: center;
+    z-index: 5;   
+}
+
+
+#inputBox {
+	display: block;
+    margin: auto;
+    text-align: center;
+    border-color: blue;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.smallText {
+	font-size: 3.5em;
+}
+
+.smallerText {
+	font-size: 2em;
+}
+
+.largeText {
+	font-size: 5em;
+}
