@@ -1,9 +1,9 @@
 $('document').ready(function () {
 
 	var $msgArea = $('msgArea').text,
-		$inputBox = $('inputBox').val
+		$inputBox = $('inputBox')
 
-	$msgArea.keyup(function () {
+	$inputBox.keyup(function () {
 		$msgArea = $inputBox;
 	})
 
