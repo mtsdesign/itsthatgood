@@ -1,5 +1,5 @@
 $('document').ready(function () {
-
+	console.log('hello world');
 	var $msgArea = $('#msgArea').html,
 		$inputBox = $('#inputBox')
 
