@@ -4,7 +4,7 @@ $('document').ready(function () {
 		$inputBox = $('#inputBox')
 
 	$inputBox.keyup(function () {
-		$msgArea = $inputBox;
+		$msgArea = $inputBox.val;
 	})
 
 })//doc ready
