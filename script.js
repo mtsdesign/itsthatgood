@@ -1,11 +1,12 @@
-$('document').ready(function () {
+$( document ).ready(function() {
+
 	console.log('hello world');
-	var $msgArea = $('#msgArea').html,
+	var $msgArea = $('#msgArea'),
 		$inputBox = $('#inputBox')
 
 	$inputBox.keyup(function () {
-		$msgArea = $inputBox.val;
-		console.log($inputBox.val)
+		$msgArea.html($inputBox.val())
+		console.log($inputBox.val())
 	})
 
-})//doc ready
+});
